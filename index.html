@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pardon SHAÏNES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="texture texture-top"></div>
+    <div class="texture texture-bottom"></div>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="hearts" aria-hidden="true">
+      <span class="heart heart-one"></span>
+      <span class="heart heart-two"></span>
+      <span class="heart heart-three"></span>
+    </div>
+
+    <main class="page">
+      <section class="hero panel">
+        <div class="hero-hearts" aria-hidden="true">
+          <span class="hero-heart hero-heart-one"></span>
+          <span class="hero-heart hero-heart-two"></span>
+          <span class="hero-heart hero-heart-three"></span>
+          <span class="hero-heart hero-heart-four"></span>
+        </div>
+        <div class="hero-copy">
+          <p class="kicker">Pour SHAÏNES</p>
+          <h1>Je regrette d’avoir parlé à une autre fille. Je n’aime que toi.</h1>
+          <p class="intro">
+            Je ne voulais pas te faire du mal, mais je sais que ce que j’ai fait a pu te blesser,
+            te décevoir et casser quelque chose entre nous. Ce site n’est pas là pour effacer ma
+            faute. Il est là pour te dire clairement que je la reconnais.
+          </p>
+          <div class="hero-actions">
+            <button class="button button-primary" id="open-letter" type="button">
+              Lire ma lettre
+            </button>
+            <a class="button button-secondary" href="#truth">Ce que je veux te dire</a>
+          </div>
+        </div>
+        <div class="hero-note">
+          <p class="section-label">Mon intention</p>
+          <p>
+            Je ne veux ni te manipuler ni forcer quoi que ce soit. Je veux juste te parler avec
+            sincérité, parce que tu comptes énormément pour moi.
+          </p>
+          <div class="hero-signature">
+            <span></span>
+            <p>Avec regret, mais surtout avec amour.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="panel" id="truth">
+          <p class="section-label">La vérité</p>
+          <h2>Je ne cherche pas d’excuse.</h2>
+          <p>
+            J’ai parlé à une autre fille, et je comprends que ça puisse t’avoir blessée. Même si je
+            regrette profondément, je sais que le regret ne suffit pas à réparer ce que tu as pu
+            ressentir.
+          </p>
+        </article>
+
+        <article class="panel">
+          <p class="section-label">Ce que je ressens</p>
+          <h2>Mon coeur est avec toi.</h2>
+          <p>
+            Je n’aime qu’une seule personne, et c’est toi, SHAÏNES. Plus je repense à tout ça, plus
+            je réalise à quel point je tiens à toi et à quel point je déteste t’avoir donné une
+            raison de douter.
+          </p>
+        </article>
+
+        <article class="panel">
+          <p class="section-label">Ce que je demande</p>
+          <h2>Pas l’oubli. Juste une chance de te reparler.</h2>
+          <p>
+            Je ne te demande pas de faire comme si rien ne s’était passé. Je te demande seulement
+            la possibilité de te parler sincèrement, calmement, et de te montrer que je peux faire
+            mieux.
+          </p>
+        </article>
+      </section>
+
+      <section class="promise panel">
+        <div class="promise-copy">
+          <p class="section-label">Ce que je veux te promettre</p>
+          <h2>Plus de respect. Plus de clarté. Plus d’attention.</h2>
+          <p>
+            Si tu me laisses une place pour m’expliquer, je veux la mériter avec des actes, pas
+            seulement avec de jolies phrases.
+          </p>
+        </div>
+        <div class="quote-box">
+          <p>
+            “Je sais que je t’ai fait du mal. Je suis désolé. Et malgré mon erreur, mes sentiments
+            pour toi n’ont jamais changé.”
+          </p>
+        </div>
+      </section>
+
+      <section class="memories panel">
+        <div class="memories-copy">
+          <p class="section-label">Nos moments</p>
+          <h2>Ces images me rappellent pourquoi je tiens autant à toi.</h2>
+          <p>
+            Je les ai ajoutées ici parce qu’elles me rappellent nos appels, nos moments simples, et
+            la place que tu as vraiment dans mon coeur.
+          </p>
+        </div>
+        <div class="carousel" id="memory-carousel">
+          <div class="carousel-stage">
+            <figure class="memory-slide is-active" data-slide>
+              <img src="./assets/image1.png" alt="SHAÏNES pendant un appel FaceTime" />
+              <figcaption>Ton visage dans ces appels me manque plus que je ne sais le dire.</figcaption>
+            </figure>
+            <figure class="memory-slide" data-slide>
+              <img src="./assets/image2.jpeg" alt="Souvenir de SHAÏNES en FaceTime" />
+              <figcaption>Chaque moment avec toi me rappelle que je n’aurais jamais dû te blesser.</figcaption>
+            </figure>
+            <figure class="memory-slide" data-slide>
+              <img src="./assets/image3.png" alt="Photo de SHAÏNES pendant un appel vidéo" />
+              <figcaption>Je repense à nous, et je sais exactement qui je ne veux pas perdre.</figcaption>
+            </figure>
+          </div>
+          <div class="carousel-controls">
+            <button class="button button-secondary carousel-button" id="prev-slide" type="button">
+              Précédente
+            </button>
+            <div class="carousel-dots" aria-label="Navigation du carrousel">
+              <button class="carousel-dot is-active" type="button" data-dot="0" aria-label="Image 1"></button>
+              <button class="carousel-dot" type="button" data-dot="1" aria-label="Image 2"></button>
+              <button class="carousel-dot" type="button" data-dot="2" aria-label="Image 3"></button>
+            </div>
+            <button class="button button-secondary carousel-button" id="next-slide" type="button">
+              Suivante
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="final panel">
+        <p class="section-label">Un dernier mot</p>
+        <h2>SHAÏNES, tu me manques.</h2>
+        <p class="love-line">Mon coeur revient toujours vers toi.</p>
+        <p>
+          Si tu acceptes de me reparler un jour, je serai là pour t’écouter d’abord, parler ensuite,
+          et assumer pleinement ce que j’ai fait.
+        </p>
+        <div class="response-box" id="response-box" aria-live="polite">
+          Je respecte ton silence si tu as besoin de temps.
+        </div>
+        <div class="hero-actions">
+          <button class="button button-primary" id="hope-button" type="button">
+            J’espère encore
+          </button>
+          <button class="button button-secondary" id="time-button" type="button">
+            Prends ton temps
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="letter" id="letter-dialog">
+      <div class="letter-card">
+        <div class="letter-hearts" aria-hidden="true">
+          <span class="mini-heart"></span>
+          <span class="mini-heart"></span>
+          <span class="mini-heart"></span>
+        </div>
+        <p class="section-label">Ma lettre</p>
+        <h2>SHAÏNES, pardon.</h2>
+        <p>
+          Je t’écris ça parce que je ne voulais pas te faire un message vide ou maladroit. Je
+          voulais prendre le temps de te dire les choses correctement.
+        </p>
+        <p>
+          J’ai parlé à une autre fille et je regrette sincèrement. Je comprends totalement que ça
+          ait pu te blesser. À ta place, moi aussi j’aurais mal vécu ça.
+        </p>
+        <p>
+          Je ne veux pas minimiser mon erreur. Je veux l’assumer. Et je veux surtout que tu saches
+          une chose très simple : je n’aime que toi.
+        </p>
+        <p>
+          Si un jour tu acceptes de me reparler, je veux que ce soit sans mensonge, sans orgueil,
+          et avec le respect que tu mérites.
+        </p>
+        <button class="button button-primary" id="close-letter" type="button">Fermer</button>
+      </div>
+    </dialog>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
